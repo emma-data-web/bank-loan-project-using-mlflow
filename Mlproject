@@ -5,8 +5,11 @@ conda_env: conda.yaml
 entry_points:
   main:
     parameters:
-      test_size: {type:float, defaults:0.2}
-      random_state: {type:int, defaults:101}
+      test_size: {type: float, default: 0.2}
+      random_state: {type: int, default: 101}
       data_path: {type: str, default: "loan_data.csv"}
-    command: "python train.py --test_size {test_size} --random_state {random_state} --data_path{data_path}"
-
+    command: >
+      python train.py
+      --test_size {test_size}
+      --random_state {random_state}
+      --data_path {data_path}
