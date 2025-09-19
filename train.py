@@ -14,12 +14,13 @@ import mlflow.sklearn
 parser = argparse.ArgumentParser()
 parser.add_argument("--test_size", type=float, default=0.2)
 parser.add_argument("--random_state", type=int, default=101)
+parser.add_argument("--data_path", type=str, default="loan_data.csv")
 args = parser.parse_args()
 
 
 
 # Load data
-sal = pd.read_csv("loan_data.csv")
+sal = pd.read_csv(args.data_path)
 
 features = [
     'purpose', 'int.rate', 'installment', 'log.annual.inc',
