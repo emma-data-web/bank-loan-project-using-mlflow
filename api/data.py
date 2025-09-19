@@ -4,4 +4,4 @@ model = joblib.load("loan_model.pkl")
 
 
 
-print(model)
+print(model)model = joblib.load("loan_model.pkl")

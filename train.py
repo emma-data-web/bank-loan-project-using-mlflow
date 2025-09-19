@@ -8,10 +8,12 @@ from sklearn.compose import ColumnTransformer
 from xgboost import XGBRegressor
 from sklearn.model_selection import RandomizedSearchCV
 import argparse
+import mlflow
 
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--test_size", type=float, default=0.2)
+parser.add_argument("--random_state", type=int, default=101)
 
 args = parser.parse_args()
 
@@ -74,7 +76,7 @@ grid = RandomizedSearchCV(
     scoring="neg_root_mean_squared_error"
 )
 
-x_train, x_test, y_train, y_test = train_test_split(sal[features], sal[traget], test_size=0.3, random_state=101)
+x_train, x_test, y_train, y_test = train_test_split(sal[features], sal[traget], test_size=args.test_size, random_state=args.random_state)
 
 grid.fit(x_train, y_train)
 

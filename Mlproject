@@ -6,5 +6,6 @@ entry_pionts:
   main:
     parameters:
       test_size: {type=float, defaults=0.2}
-    command: "python train.py --test_size {test_size}"
+      random_state: {type=int, defaults=101}
+    command: "python train.py --test_size {test_size} --random_state {random_state}"
 
