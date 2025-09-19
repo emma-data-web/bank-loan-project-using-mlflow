@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/Desktop/my_projects/student_full_mlflow_project/mlruns/484168659549976027/22cc6797a2f3468dbd8d26c690753dd6/artifacts
+end_time: 1758268845701
+entry_point_name: ''
+experiment_id: '484168659549976027'
+lifecycle_stage: active
+run_id: 22cc6797a2f3468dbd8d26c690753dd6
+run_name: rogue-calf-542
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758268808361
+status: 3
+tags: []
+user_id: HP

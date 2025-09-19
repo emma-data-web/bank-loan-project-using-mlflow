@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/Desktop/my_projects/student_full_mlflow_project/mlruns/0/da6142da27b6463f8fc18ed8b2f08331/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: da6142da27b6463f8fc18ed8b2f08331
+run_name: trusting-auk-482
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758269247258
+status: 1
+tags: []
+user_id: HP

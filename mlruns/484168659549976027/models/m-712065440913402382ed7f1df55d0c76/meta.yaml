@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/HP/Desktop/my_projects/student_full_mlflow_project/mlruns/484168659549976027/models/m-712065440913402382ed7f1df55d0c76/artifacts
+creation_timestamp: 1758268834804
+experiment_id: '484168659549976027'
+last_updated_timestamp: 1758268845270
+model_id: m-712065440913402382ed7f1df55d0c76
+model_type: null
+name: model
+source_run_id: 22cc6797a2f3468dbd8d26c690753dd6
+status: 2
+status_message: null

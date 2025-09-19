@@ -2,10 +2,10 @@ name: loan_project
 
 conda_env: conda.yaml
 
-entry_pionts:
+entry_points:
   main:
     parameters:
-      test_size: {type=float, defaults=0.2}
-      random_state: {type=int, defaults=101}
+      test_size: {type:float, defaults:0.2}
+      random_state: {type:int, defaults:101}
     command: "python train.py --test_size {test_size} --random_state {random_state}"
 

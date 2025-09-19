@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/Desktop/my_projects/student_full_mlflow_project/mlruns/484168659549976027/c2390f74e1214640b3af0e1cf69f6b2d/artifacts
+end_time: 1758269786136
+entry_point_name: ''
+experiment_id: '484168659549976027'
+lifecycle_stage: active
+run_id: c2390f74e1214640b3af0e1cf69f6b2d
+run_name: blushing-pig-666
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758269773547
+status: 3
+tags: []
+user_id: HP

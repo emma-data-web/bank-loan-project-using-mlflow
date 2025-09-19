@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/Desktop/my_projects/student_full_mlflow_project/mlruns/0/8e64bd3c5782485f879837e1d3f310b5/artifacts
+end_time: 1758269935001
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8e64bd3c5782485f879837e1d3f310b5
+run_name: abrasive-jay-439
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758269903741
+status: 4
+tags: []
+user_id: HP

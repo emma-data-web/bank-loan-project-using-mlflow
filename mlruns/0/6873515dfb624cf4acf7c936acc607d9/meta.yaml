@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/Desktop/my_projects/student_full_mlflow_project/mlruns/0/6873515dfb624cf4acf7c936acc607d9/artifacts
+end_time: 1758269480731
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6873515dfb624cf4acf7c936acc607d9
+run_name: charming-stag-931
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758269474690
+status: 4
+tags: []
+user_id: HP
