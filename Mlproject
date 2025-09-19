@@ -1,0 +1,10 @@
+name: loan_project
+
+conda_env: conda.yaml
+
+entry_pionts:
+  main:
+    parameters:
+      test_size: {type=float, defaults=0.2}
+    command: "python train.py --test_size {test_size}"
+

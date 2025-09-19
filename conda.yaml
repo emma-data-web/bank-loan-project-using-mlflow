@@ -1,0 +1,12 @@
+name: conda_file
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.12.3
+  - scikit-learn 
+  - pip
+  - pip:
+    - -r requirements.txt
