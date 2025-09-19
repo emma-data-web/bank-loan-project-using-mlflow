@@ -91,6 +91,7 @@ x_train, x_test, y_train, y_test = train_test_split(
 grid.fit(x_train, y_train)
 real_model = grid.best_estimator_
 
+mlflow.set_tracking_uri("http://localhost:5000")
 # Log best params and model
 mlflow.log_params(grid.best_params_)
 mlflow.sklearn.log_model(real_model, "model")
