@@ -8,8 +8,10 @@ entry_points:
       test_size: {type: float, default: 0.2}
       random_state: {type: int, default: 101}
       data_path: {type: str, default: "loan_data.csv"}
+      mlflow_url: {type: str, default: "http://localhost:5000"}
     command: >
       python train.py
       --test_size {test_size}
       --random_state {random_state}
       --data_path {data_path}
+      --mlflow_url {mlflow_url}

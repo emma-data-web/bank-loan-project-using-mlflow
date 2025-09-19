@@ -15,10 +15,12 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--test_size", type=float, default=0.2)
 parser.add_argument("--random_state", type=int, default=101)
 parser.add_argument("--data_path", type=str, default="loan_data.csv")
+parser.add_argument("--mlflow_url", type=str, default="http://localhost:5000")
+
 args = parser.parse_args()
 
 
-
+mlflow.set_tracking_uri(args.mlflow_url)
 # Load data
 sal = pd.read_csv(args.data_path)
 
@@ -91,7 +93,7 @@ x_train, x_test, y_train, y_test = train_test_split(
 grid.fit(x_train, y_train)
 real_model = grid.best_estimator_
 
-mlflow.set_tracking_uri("http://localhost:5000")
+
 # Log best params and model
 mlflow.log_params(grid.best_params_)
 mlflow.sklearn.log_model(real_model, "model")

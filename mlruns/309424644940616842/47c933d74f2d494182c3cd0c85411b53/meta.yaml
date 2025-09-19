@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/Desktop/my_projects/student_full_mlflow_project/mlruns/309424644940616842/47c933d74f2d494182c3cd0c85411b53/artifacts
+end_time: 1758273305843
+entry_point_name: ''
+experiment_id: '309424644940616842'
+lifecycle_stage: active
+run_id: 47c933d74f2d494182c3cd0c85411b53
+run_name: upbeat-stoat-503
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758273269411
+status: 4
+tags: []
+user_id: HP
